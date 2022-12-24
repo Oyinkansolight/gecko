@@ -42,7 +42,7 @@ export default function HomePage({ data }: any) {
                             <div className='my-auto'>
                               {coin.item.name} {`(${coin.item.symbol})`}
                             </div>
-                            <div className='my-auto'>chart</div>
+                            {/* <div className='my-auto'>chart</div> */}
                             <div className='h3 my-auto'>
                               ${round(coin.item.price_btc * data.btcPrice, 5)}
                             </div>
@@ -119,7 +119,10 @@ export default function HomePage({ data }: any) {
                                 </div>
                               </div>
 
-                              <UnstyledLink openNewTab href='/'>
+                              <UnstyledLink
+                                openNewTab
+                                href='https://coinmarketcap.com/'
+                              >
                                 <div className='absolute right-2 bottom-2 rounded-lg bg-content p-2'>
                                   <RiLinksFill className='h-5 w-5 text-blue-600' />
                                 </div>
