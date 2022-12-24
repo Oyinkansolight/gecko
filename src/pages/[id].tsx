@@ -239,7 +239,7 @@ export default function CoinPage({ data }: any) {
                                       handleSellChange(val);
                                     }
                                   }}
-                                  className='h3 my-auto max-w-[15rem] rounded-lg bg-content p-1'
+                                  className='h3 my-auto max-w-[15rem] rounded-lg border-[0.1px] border-gray-600 bg-content p-2'
                                 />
                               </div>
                             </div>
@@ -279,7 +279,7 @@ export default function CoinPage({ data }: any) {
                                     handleBuyChange(val);
                                   }
                                 }}
-                                className='h3 my-auto max-w-[15rem] rounded-lg bg-content p-1'
+                                className='h3 my-auto max-w-[15rem] rounded-lg border-[0.1px] border-gray-600 bg-content p-2'
                               />
                             </div>
 
